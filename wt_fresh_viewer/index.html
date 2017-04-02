@@ -1,32 +1,40 @@
-<html>
+<html lang="ja">
 <head>
+	<meta charset="utf-8">
 	<title>WT Fresh Viewer</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-<h2>WT Fresh Viewer</h2>
-<div>
+<div id="main">
+	<h2>WT Fresh Viewer</h2>
 	<h3>概要</h3>
-	<p>これは配信サイトFreshの画面上にコメントを流すことができるchrome拡張機能です。この機能はchromeブラウザでのみ使用可能なものになっています。<br>
-	chromeをインストールしていない方は先に最新のバージョンをインストールしてください。またchrome、chrome拡張機能の詳しい説明は各自で調べてください。</p>
+	<p class="topic">これは配信サイトFreshの画面上にコメントを流すことができるchrome拡張機能です。現在、生放送のみ対応しています。アーカイブではコメントは流れません。<br>この機能はchromeブラウザでのみ使用可能なものになっています。chromeをインストールしていない方は先に最新のバージョンをインストールしてください。<br>またchrome、chrome拡張機能の詳しい説明は各自で調べてください。</p>
 	<h3>使い方</h3>
-	<p>まず、<a href="./wt_fresh_viewer_013.zip">ここから</a>zipファイルをＤＬして、ファイルを展開してください。</p>
+	<p class="topic">まず、<a href="./wt_fresh_viewer_013.zip">ここから</a>zipファイルをＤＬして、ファイルを展開してください。</p>
+	<img class="topic" src="./howto1.png">
 	<p>次に、展開したファイルをchrome拡張機能の画面にドラックアンドドロップします。</p>
 	<p>すると、WT fresh viewerというのが追加されていると思います。これで準備完了です。</p>
-	<p>Freshの配信ページに飛んでみてください。コメントが流れてくると思います。また流れない場合はページをリロードしてみてください。</p>
+	<img class="topic" src="./howto2.png">
+	<p class="topic">Freshの配信ページに飛んでみてください。コメントが流れてくると思います。また流れない場合はページをリロードしてみてください。</p>
 	<h3>注意</h3>
-	<p>この拡張機能は現在試作段階のもので必ずしも満足できるものではないことご了承ください。また、コメント取得にはFresh公式のAPIを使用していますが、<br>こちらはβ版ということで正確なデータが取得できていない可能性もあります。こちらもご了承ください。加えて、製作者はこの拡張機能の利用によって生じた損害に対する責任は負いません。</p>
+	<p class="topic">この拡張機能は現在試作段階のもので必ずしも満足できるものではないことをご了承ください。また、コメント取得にはFresh公式のAPIを使用していますが、<br>こちらはβ版ということで正確なデータが取得できていない可能性もあります。こちらもご了承ください。加えて、製作者はこの拡張機能の利用によって生じた損害に対する責任を負いません。</p>
 	<h3>Special Thanks</h3>
-	<p>この拡張機能を製作するにあたって、<a href="http://com.nicovideo.jp/community/co3314651">seikin TV viewer</a>を参考にさせていただきました。</p>
+	<p class="topic">この拡張機能を製作するにあたって、<a target="_blank" href="http://com.nicovideo.jp/community/co3314651">seikin TV viewer</a>を参考にさせていただきました。<br>
+	サムネイルに<a target="_blank" href="http://upi.capybbs.net/test/read.cgi/zatudan/1490890008/">かぴばらBBSのスレ</a>で配布していた画像を使用させていただきました。<br>
+	ありがとうございます。</p>
 	<h3>更新ログ</h3>
 	<ul>
 		<li><p>v0.1.3 (2017/04/02) ・・・ ウィンドウリサイズ時のコメント表示の仕様を修正、その他諸修正</p></li>
 		<li><p>v0.1.2 (2017/04/01) ・・・　β版公開 </p></li>
 	</ul>
 	<h3>製作者</h3>
-	<p>クーリッシュ　Twiiter:<a href="https://twitter.com/coolish_01">@coolish_01</a></p>
+	<p class="topic">クーリッシュ　Twiiter:<a target="_blank" href="https://twitter.com/coolish_01">@coolish_01</a></p>
 	<h3>ひとこと</h3>
-	<p>バグ、質問や不明な点などありましたらtwitterにて対応しますので、ご連絡ください。<br>
+	<p class="topic">バグ、質問や要望などがありましたらtwitterにて対応しますので、ご連絡ください。<br>
 	余談ですが、Freshのコメントってラグで時間がずれてたりしてAPIだと全部拾えなかったりするんだよね、そこ直してほしいなぁ。<br>このままだとDOMから取得することになるけどせっかく運営さんが用意してくれたから様子見で使っていきます。</p>
+</div>
+<div id="footer">
+<p>© 2017 coolish</p>
 </div>
 </body>
 </html>

@@ -30,5 +30,5 @@ for arg in args.id:
     for d in data:
       v = [d[i: i+8] for i in range(0, len(d), 8)]
       print(v)
-      s = v[0] + v[1] + v[2]
+      s = v[0] + v[2] + v[4]
       print(format(int(s, 2), "x"))

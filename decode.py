@@ -26,5 +26,6 @@ for arg in args.id:
         data[-1] += "1"
 
     print(data)
+    
     for d in data:
       print(format(int(d, 2), "x"))

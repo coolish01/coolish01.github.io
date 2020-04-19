@@ -25,5 +25,6 @@ for arg in args.id:
       elif code[i + 1] < 4000:
         data[-1] += "1"
 
+    print(a)
     for d in data:
       print(format(int(d, 2), "x"))

@@ -20,7 +20,7 @@ for arg in args.id:
       if 4000 < code[i]:
         #t = (code[i] + code[i + 1]) / 12.0
         data.append("")
-      elif code[i + 1] < 500:
+      elif code[i + 1] < 700:
         data[-1] += "0"
       elif code[i + 1] < 4000:
         data[-1] += "1"
